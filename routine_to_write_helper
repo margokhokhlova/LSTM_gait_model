@@ -1,0 +1,10 @@
+for file in range(0, len(Files)):
+    name = Files[file]
+    t = T[file]
+    dim = max_dim[file]
+    fRes.write("Experiment %d from file %s \r\n" % (file,name))
+    # here all the routine in One cell 
+    fRes.write("Number of Epoques %d from file %s \r\n" % (file,name))
+    # save the results in txt File
+    
+fRes.close() 
