@@ -16,4 +16,4 @@ def loadfromfolder():
         T.append(t)
         Cov_dim.append(mat_dim)
         names.append(filename)
-    return names, T, mat_dim
+    return names, T, Cov_dim
