@@ -2,7 +2,7 @@ import os
 import glob
 
 def loadfromfolder():
-    ROOT ='data/2_angles_only'
+    ROOT ='data/best'
 # 	"Function goes through the data and returns file  names and parameters neeeded for the NN in the next step"
     names = []
     T= []
@@ -16,4 +16,4 @@ def loadfromfolder():
         T.append(t)
         Cov_dim.append(mat_dim)
         names.append(filename)
-    return names, T, mat_dim
+    return names, T, Cov_dim
