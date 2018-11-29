@@ -1,6 +1,9 @@
 # LSTM_gait_model
 Simple Keras sequential models for my gait cycle data.
+The model code is in the notebook RNN_bidirectional_multiple_stack
 For the trial, use data in data archive, these are pre-processed kinematic hip and knee parameters.
+
+
 Database with joints can be downloaded with this link:
 https://drive.google.com/open?id=1BcutfffKpyB0apdDn_uEYBKupyeHeECT
 
