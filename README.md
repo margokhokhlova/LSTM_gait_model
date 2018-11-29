@@ -1,7 +1,9 @@
 # LSTM_gait_model
 Simple Keras sequential models for my gait cycle data.
 For the trial, use data in data archive, these are pre-processed kinematic hip and knee parameters.
-Database with joints is attached in the archive:
+Database with joints can be downloaded with this link:
+https://drive.google.com/open?id=1BcutfffKpyB0apdDn_uEYBKupyeHeECT
+
 database_joints.7z
 There are raw files as delievered by the Kinect and also some processed skeletons and cycle segmentation data.
 To explore some data, run the demo file.
