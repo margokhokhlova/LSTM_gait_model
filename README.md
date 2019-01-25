@@ -14,7 +14,7 @@ To explore some data, run the demo file.
 The database contains 27 individuals performing normal and pathological walks. The classes are: knee (genou) - knee rigidity problem, normal - normal walk, someil (padding) - padding is used to simulate limping.
 The txt files contain the following information for each frame per line:
 frame number, time in ms after the start of the aquistion, (joint state, X, Y, Z, w, x, y, z) x 25 joints delivered by the kinect.
-Each person in the databse is referenced by the name in the xlsx file.
+Each person in the databse is referenced by the name specified in database_correspondence.xlsx file.
 
 
 For the simultaneous data from VICOM/KINECT, please contact me: they are too heavy to upload here.
