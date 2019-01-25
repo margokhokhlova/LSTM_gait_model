@@ -14,8 +14,13 @@ To explore some data, run the demo file.
 The database contains 27 individuals performing normal and pathological walks. The classes are: knee (genou) - knee rigidity problem, normal - normal walk, someil (padding) - padding is used to simulate limping.
 The txt files contain the following information for each frame per line:
 frame number, time in ms after the start of the aquistion, (joint state, X, Y, Z, w, x, y, z) x 25 joints delivered by the kinect.
+Each person in the databse is referenced by the name in the xlsx file.
 
 
 For the simultaneous data from VICOM/KINECT, please contact me: they are too heavy to upload here.
 Same goes for the depth data for the database.
 The description of this model and results can be found in publication (currently, under review).
+
+
+To cite the publication, please use:
+Khokhlova, Margarita, et al. "Normal and Pathological Gait Classification LSTM model." Artificial Intelligence in Medicine (2019).
