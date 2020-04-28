@@ -26,6 +26,9 @@ For the simultaneous data from VICOM/KINECT, please contact me: they are too hea
 Same goes for the depth data for the database.
 The description of this model and results can be found in publication Normal and Pathological Gait Classification LSTM model.
 
+Two layers model of the following architecture was used:
+![LSTM model architecture](https://github.com/margokhokhlova/LSTM_gait_model/blob/master/lstm_model.png)
+
 The model gives average accuracy around 80%, but you can get a bit different values if you will shuffle the training/testing/validation data differently. In the example I provide, the testing persons are fixed. You can change it by replacing the line:
 persons_testing = np.array([1,9,15,18,20,21,23,25]) 
 with smth like
